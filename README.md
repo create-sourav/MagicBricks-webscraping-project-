@@ -52,11 +52,10 @@ pip install selenium webdriver-manager beautifulsoup4 pandas matplotlib seaborn 
 ```
 MagicBricks_WebScraping/
 │
-├── Magicbricks_webscrapping.ipynb   # Main notebook file
-├── magicbricks_data.csv             # Cleaned data (output)
-├── 1bhk_bengalore(1).xlsx            # Excel version of output
-├── README.md                        # This file
-└── requirements.txt                 # Dependencies (optional)
+├── Magicbricks_webscrapping.ipynb    # Main notebook file       
+├── 1bhk_bengalore(1).xlsx            # Cleaned data Excel version of output
+├── README.md                         # This file
+└── requirements.txt                  # Dependencies (optional)
 ```
 
 ---
@@ -70,17 +69,20 @@ MagicBricks_WebScraping/
 
 ---
 
+
 ## 💾 Data Output Schema
 
 **Column Descriptions:**
 
+- **Page** - Page number from which the property was scraped
+- **BHK** - Number of bedrooms (e.g., 1 BHK, 2 BHK)
 - **Title** - Property title or headline
-- **Price** - Listed price (string)
-- **Price_num** - Numeric price value (converted)
-- **Location** - Area / neighborhood
-- **Details** - BHK, size, furnishing, etc.
-- **URL** - Direct property listing link
-- **Scraped_at** - Timestamp of data collection
+- **Locality** - Neighborhood/area where property is located
+- **Amount** - Property price converted to numeric (in ₹)
+- **Floor** - Floor information and area details
+- **Status** - Property status (Ready to Move / Under Construction)
+- **Area** - Extracted area unit from Floor column
+- **Area_sqft** - Property area in square feet (integer)
 
 ---
 
@@ -96,10 +98,13 @@ MagicBricks_WebScraping/
 ----
 ## 🧾 Insights Gained
 
+## 🧾 Insights Gained
+
 - Larger area properties tend to show an exponential increase in price
-- Median prices vary drastically between localities like **Whitefield**, **Indiranagar**, and **Koramangala**
+- Median price: **₹65,00,000**, Mean price: **₹73,30,095.51**, Mode: **₹30,00,000**
 - Price distribution is **right-skewed** — most listings fall within affordable/mid-range, with a few luxury outliers
-- Log-scaling reveals a smoother normal distribution of property values
+- Strong positive correlation between Area_sqft and Amount
+- Top localities show significant price variations based on location premium
 
 ---
 
