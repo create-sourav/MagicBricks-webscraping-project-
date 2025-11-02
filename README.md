@@ -54,7 +54,7 @@ MagicBricks_WebScraping/
 │
 ├── Magicbricks_webscrapping.ipynb   # Main notebook file
 ├── magicbricks_data.csv             # Cleaned data (output)
-├── magicbricks_data.xlsx            # Excel version of output
+├── 1bhk_bengalore(1).xlsx            # Excel version of output
 ├── README.md                        # This file
 └── requirements.txt                 # Dependencies (optional)
 ```
