@@ -86,6 +86,16 @@ MagicBricks_WebScraping/
 
 ---
 
+## 📊 Sample Visualizations
+
+![Data Overview](Screenshot%202025-11-02%20234007.png)
+*Data cleaning and preprocessing results*
+
+![Price vs Area Analysis](Screenshot%202025-11-02%20234101.png)
+*Joint plot showing relationship between property price and area*
+
+
+----
 ## 🧾 Insights Gained
 
 - Larger area properties tend to show an exponential increase in price
