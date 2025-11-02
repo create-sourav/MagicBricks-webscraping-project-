@@ -23,8 +23,6 @@ The notebook automates browser scrolling, scrapes multiple pages, extracts prope
 - **pandas** - Data cleaning and analysis
 - **matplotlib** - Static visualizations
 - **seaborn** - Statistical visualizations
-- **plotly** - Interactive visualizations
-- **openpyxl** - Excel file handling
 - **numpy** - Numerical operations
 - **time** - Handling dynamic waits
 
@@ -34,7 +32,7 @@ The notebook automates browser scrolling, scrapes multiple pages, extracts prope
 
 Run these commands in your environment or notebook before execution:
 ```bash
-pip install selenium webdriver-manager beautifulsoup4 pandas matplotlib seaborn plotly openpyxl numpy
+pip install selenium webdriver-manager beautifulsoup4 pandas matplotlib seaborn numpy
 ```
 
 ---
