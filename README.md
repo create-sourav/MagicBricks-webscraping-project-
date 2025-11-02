@@ -88,12 +88,12 @@ MagicBricks_WebScraping/
 
 ## 📊 Sample Visualizations
 
-![Data Overview](Screenshot%202025-11-02%20234007.png)
-*Data cleaning and preprocessing results*
+![Amount Distribution](amount.png)
+*Distribution analysis of property prices*
 
-![Price vs Area Analysis](Screenshot%202025-11-02%20234101.png)
+![Price vs Area Correlation](joinplot.png)
+          
 *Joint plot showing relationship between property price and area*
-
 
 ----
 ## 🧾 Insights Gained
