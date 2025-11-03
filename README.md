@@ -101,7 +101,7 @@ MagicBricks_WebScraping/
 ## 🧾 Insights Gained
 
 - Larger area properties tend to show an exponential increase in price
-- Median price: **₹65,00,000**, Mean price: **₹7498423.47**, Mode: **₹30,00,000**
+- Median price: **₹65,00,000**, Mean price: **₹7330095.51**, Mode: **₹30,00,000**
 - Price distribution is **right-skewed** — most listings fall within affordable/mid-range, with a few luxury outliers
 - Strong positive correlation between Area_sqft and Amount
 - Top localities show significant price variations based on location premium
