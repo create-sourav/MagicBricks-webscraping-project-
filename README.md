@@ -53,7 +53,7 @@ pip install selenium webdriver-manager beautifulsoup4 pandas matplotlib seaborn 
 MagicBricks_WebScraping/
 │
 ├── Magicbricks_webscrapping.ipynb    # Main notebook file       
-├── 1bhk_bengalore.xlsx            # Cleaned data Excel version of output
+├── 1bhk_bangalore.xlsx            # Cleaned data Excel version of output
 ├── README.md                         # This file
 └── requirements.txt                  # Dependencies (optional)
 ```
